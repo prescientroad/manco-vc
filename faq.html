@@ -5,29 +5,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>FAQ - The Management Company</title>
 <meta name="description" content="A small, confidential, moderated forum for emerging venture GPs. Eight to ten managers, the same group, every month.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root { --ink:#1b1b1b; --muted:#5d5d5d; --rule:#d9d6cf; --bg:#faf9f6; --accent:#1f3a34; }
+  :root { --ivory:#FBF7F4; --ivory-deep:#F1EAE2; --navy:#1B2F4B; --navy-soft:#2A4060; --stone:#7C7668; --ink:#26313F; --hairline:#E2DACB; }
   * { box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; }
-  body { margin:0; background:var(--bg); color:var(--ink); font-family: Georgia, "Times New Roman", serif; font-size:18px; line-height:1.65; }
-  .wrap { max-width:660px; margin:0 auto; padding:56px 22px 72px; }
-  header { border-bottom:1px solid var(--rule); padding-bottom:28px; margin-bottom:8px; }
-  .name { font-family: Helvetica, Arial, sans-serif; letter-spacing:.14em; text-transform:uppercase; font-size:13px; color:var(--accent); font-weight:700; margin:0 0 18px; }
-  h1 { font-size:34px; line-height:1.2; margin:0 0 14px; font-weight:normal; }
-  .lede { color:var(--muted); margin:0; }
-  h2 { font-family: Helvetica, Arial, sans-serif; font-size:13px; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); margin:40px 0 10px; }
+  body { margin:0; background:var(--ivory); color:var(--ink); font-family:'Inter',-apple-system,sans-serif; font-weight:300; font-size:17px; line-height:1.75; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:720px; margin:0 auto; padding:64px 32px 80px; }
+  header { border-bottom:1px solid var(--hairline); padding-bottom:32px; margin-bottom:8px; }
+  .name { font-family:'Cinzel',serif; letter-spacing:.32em; text-transform:uppercase; font-size:15px; color:var(--navy); font-weight:500; margin:0 0 28px; }
+  h1 { font-family:'Cinzel',serif; font-weight:500; color:var(--navy); font-size:clamp(26px,3.4vw,36px); line-height:1.35; letter-spacing:.04em; margin:0 0 16px; }
+  .lede { color:var(--stone); margin:0; }
+  h2 { font-family:'Inter',sans-serif; font-size:11px; letter-spacing:.3em; text-transform:uppercase; color:var(--stone); font-weight:500; margin:56px 0 16px; padding-top:40px; border-top:1px solid var(--hairline); }
+  h3 { font-family:'Cinzel',serif; font-weight:500; font-size:17px; letter-spacing:.06em; color:var(--navy); margin:36px 0 8px; line-height:1.4; }
   p { margin:0 0 14px; }
-  ul { padding-left:20px; margin:0 0 14px; }
-  li { margin-bottom:6px; }
-  .btn { display:inline-block; font-family: Helvetica, Arial, sans-serif; font-size:16px; background:var(--accent); color:#fff; text-decoration:none; padding:13px 26px; margin-top:6px; }
-  .btn:hover { background:#16292a; }
-  .note { font-size:15px; color:var(--muted); }
-  footer { border-top:1px solid var(--rule); margin-top:48px; padding-top:18px; font-size:14px; color:var(--muted); font-family: Helvetica, Arial, sans-serif; }
-  @media (max-width:520px){ body{font-size:17px;} h1{font-size:28px;} .wrap{padding-top:36px;} .btn{display:block;text-align:center;} }
-  h3 { font-size:19px; font-weight:bold; margin:30px 0 8px; line-height:1.35; }
-  .back { font-family: Helvetica, Arial, sans-serif; font-size:14px; }
-  a { color: var(--accent); }
-  .btn { color:#fff; }
+  a { color:var(--navy); }
+  ul { list-style:none; padding:0; margin:0 0 14px; }
+  li { padding:12px 0 12px 26px; position:relative; border-bottom:1px solid var(--ivory-deep); }
+  li::before { content:""; position:absolute; left:0; top:24px; width:10px; height:1px; background:var(--stone); }
+  .btn { display:inline-block; font-family:'Inter',sans-serif; font-size:12px; letter-spacing:.22em; text-transform:uppercase; font-weight:500; background:var(--navy); color:var(--ivory); text-decoration:none; padding:16px 42px; margin-top:6px; transition:background .2s; }
+  .btn:hover { background:var(--navy-soft); }
+  .note { font-size:15px; color:var(--stone); }
+  footer { border-top:1px solid var(--hairline); margin-top:56px; padding-top:20px; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--stone); }
+  footer a { color:var(--stone); }
+  @media (max-width:520px){ body{font-size:16px;} .wrap{padding:40px 22px 56px;} .btn{display:block;text-align:center;} }
 </style>
 </head>
 <body>
