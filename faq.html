@@ -27,6 +27,10 @@
   li::before { content:""; position:absolute; left:0; top:24px; width:10px; height:1px; background:var(--stone); }
   .btn { display:inline-block; font-family:'Inter',sans-serif; font-size:12px; letter-spacing:.22em; text-transform:uppercase; font-weight:500; background:var(--navy); color:var(--ivory); text-decoration:none; padding:16px 42px; margin-top:6px; transition:background .2s; }
   .btn:hover { background:var(--navy-soft); }
+  .price { font-family:'Cinzel',serif; color:var(--navy); font-size:26px; letter-spacing:.04em; margin:0 0 10px; line-height:1.3; }
+  .price s { color:var(--stone); font-size:20px; text-decoration-thickness:1px; margin-right:6px; }
+  .price b { font-weight:500; }
+  .price span { font-family:'Inter',sans-serif; font-size:14px; letter-spacing:.02em; color:var(--stone); margin-left:6px; }
   .note { font-size:15px; color:var(--stone); }
   footer { border-top:1px solid var(--hairline); margin-top:56px; padding-top:20px; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--stone); }
   footer a { color:var(--stone); }
@@ -75,7 +79,8 @@
   <p>We read your application. If it looks like a fit, we set up a conversation. If we both think it works, you get a personal invitation. Applying is not a commitment, and nothing is charged when you apply.</p>
 
   <h3>What does it cost?</h3>
-  <p>$5,000 per year, paid annually. Founding members, the first group, are locked in at this rate permanently. Most members expense it through their management company as an ordinary business expense.</p>
+  <p class="price"><s>$7,500</s> <b>$5,000</b> <span>per year for founding members</span></p>
+  <p>Paid annually. The standard price is $7,500; founding members, the first group, are locked in at $5,000 permanently. Most members expense it through their management company as an ordinary business expense.</p>
 
   <h3>What if it is not useful?</h3>
   <p>You have 60 days to get your money back, provided you have attended the first two meetings. Two meetings is enough to see whether the room is right for you.</p>
